@@ -1,0 +1,101 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+   font-family: 'Inter', sans-serif; 
+  margin: 0;
+  padding:0;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p {
+  font-size: 12px;
+}
+
+
+.avatar {
+  height: 200px;
+  width:100%;
+  
+}
+.info-wrapper, .about-wrapper , .interests-wrapper {
+  background: #23252C;
+  color: #DCDCDC;
+  padding-bottom: 20px;
+  
+}
+
+.about-wrapper , .interests-wrapper{
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+.info-wrapper {
+  text-align: center;
+
+}
+.info-wrapper >h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.info-wrapper >p {
+  margin-bottom: 20px;
+}
+.about-wrapper  {
+padding-top:1px;
+}
+.about-wrapper>p , .interests-wrapper>p {
+   margin-top: 8px; 
+}
+.about-wrapper>h4 , .interests-wrapper >h4{
+margin-bottom: 0;
+}
+.interests-wrapper {
+  margin-top:-27px;
+  padding-bottom: 45px;
+ 
+}
+
+  span {
+ color: #F3BF99;
+ font-size: 14px;
+
+}
+footer {
+  background-color: #161619;
+  margin-top: -17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display:flex;
+  justify-content: space-evenly;
+
+  
+} 
+button {
+  padding: 10px 13px 10px 13px;
+  width: 115px;
+  height: 34px;
+  border:none;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  font-size: 14px;
+}
+
+.linked-btn {
+  margin-top: 0;
+  background-color: #5093E2;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap:6px;
+  justify-content: center;
+}
+  .btn-wrapper{
+  display:flex;
+  gap: 20px;
+  justify-content: center;
+}
